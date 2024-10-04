@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const mongoURL = "mongodb://127.0.0.1:27017/Office";
+const LocalMongoURL = "mongodb://127.0.0.1:27017/Office";
 
-mongoose.connect(mongoURL, {
+mongoose.connect(LocalMongoURL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
